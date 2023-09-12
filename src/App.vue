@@ -104,7 +104,7 @@ input[type='text'] {
 }
 
 .add-button:hover {
-  background-color: #2b8a3e; /* Slightly darker green on hover */
+  background-color: #2b8a3e;
 }
 
 .delete-button {
