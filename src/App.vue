@@ -1,10 +1,8 @@
 <template>
-  <div id="app">
     <div class="container">
       <h1>simplestVueTodo</h1>
       <AddTodo @add="addTodo" />
       <TodoList :todos="todos" @toggle="toggleTodo" @delete="deleteTodo" />
-    </div>
   </div>
 </template>
 
@@ -46,6 +44,14 @@ export default defineComponent({
 </script>
 
 <style>
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: black;
@@ -103,6 +109,7 @@ input[type='text'] {
 
 .delete-button {
   margin-left: 10px; 
+  margin-bottom: 5px;
   background-color: red;
   color: white;
   border: none;
@@ -128,6 +135,7 @@ li {
   border-radius: 4px;
   margin-bottom: 5px;
 }
+
 
 input[type='checkbox'] {
   margin-right: 10px;

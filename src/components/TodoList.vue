@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="list">
     <TodoItem v-for="(todo, index) in todos" :key="index" :todo="todo" @toggle="toggleTodo(index)" @delete="deleteTodo(index)" />
   </div>
 </template>
