@@ -52,17 +52,6 @@ export default defineComponent({
   width: 100vw;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: black;
-  color: #fff;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
 .container {
   max-width: 400px;
   width: 100%;
@@ -71,14 +60,10 @@ body {
   background-color: #333;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
-.input-wrapper {
-  display: flex;
-  margin-bottom: 10px;
-}
-
-input[type='text'] {
+.todo-input {
   flex-grow: 1;
   padding: 8px;
   border: none;
@@ -95,12 +80,8 @@ input[type='text'] {
 }
 
 .add-button {
-  margin-left: 10px;
   background-color: green;
   color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .add-button:hover {
@@ -108,25 +89,20 @@ input[type='text'] {
 }
 
 .delete-button {
-  margin-left: 10px; 
-  margin-bottom: 5px;
   background-color: red;
   color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .delete-button:hover {
-  background-color: #a12424; 
+  background-color: #a12424;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.list {
+  margin-top: 20px;
+
 }
 
-li {
+.list-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -135,7 +111,6 @@ li {
   border-radius: 4px;
   margin-bottom: 5px;
 }
-
 
 input[type='checkbox'] {
   margin-right: 10px;

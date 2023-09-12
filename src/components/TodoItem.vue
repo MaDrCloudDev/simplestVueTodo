@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="list-item">
     <input type="checkbox" v-model="todo.completed" @change="toggleTodo" />
     <span @click="toggleCheckbox" :style="{ 'text-decoration': todo.completed ? 'line-through' : 'none', cursor: 'pointer' }">{{ todo.text }}</span>
     <button class="delete-button" @click="deleteTodo">Delete</button>
