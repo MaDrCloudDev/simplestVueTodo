@@ -89,7 +89,7 @@ input[type='text'] {
 }
 
 .add-button {
-  margin-left: 10px; /* Add space to the left of the button */
+  margin-left: 10px;
   background-color: green;
   color: white;
   border: none;
@@ -102,7 +102,7 @@ input[type='text'] {
 }
 
 .delete-button {
-  margin-left: 10px; /* Add space to the left of the button */
+  margin-left: 10px; 
   background-color: red;
   color: white;
   border: none;
@@ -111,7 +111,7 @@ input[type='text'] {
 }
 
 .delete-button:hover {
-  background-color: #a12424; /* Slightly darker red on hover */
+  background-color: #a12424; 
 }
 
 ul {

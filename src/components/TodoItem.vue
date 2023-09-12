@@ -16,7 +16,7 @@ export default defineComponent({
       this.$emit('toggle');
     },
     toggleCheckbox() {
-      this.$emit('toggle'); // Emit the 'toggle' event when the checkbox is clicked
+      this.$emit('toggle');
     },
     deleteTodo() {
       this.$emit('delete');
